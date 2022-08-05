@@ -235,7 +235,58 @@ footer {
     padding: 10px 20px;
 }
 
+/* social icon  */
+.social-icon {
+    text-align: center;
+    margin-top: 50px;
+}
 
+.social-icon a {
+    padding: 10px 10px;
+    text-decoration: none;
+    background: white;
+    border-radius: 50px;
+}
+
+.fb-color {
+    color: #15A2FA;
+
+}
+
+.fb-color:hover {
+    background: #15A2FA;
+    color: white;
+}
+
+.yt-color {
+    color: red;
+}
+
+.yt-color:hover {
+    background: red;
+    color: white;
+    transition: .5s;
+}
+
+.tw-color {
+    color: #15A2FA;
+}
+
+.tw-color:hover {
+    background: #15A2FA;
+    color: white;
+    transition: .5s;
+}
+
+.ins-color {
+    color: #B83080;
+}
+
+.ins-color:hover {
+    background: #B83080;
+    color: white;
+    transition: .5s;
+}
 
 
 
