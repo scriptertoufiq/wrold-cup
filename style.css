@@ -177,6 +177,32 @@ body {
     border-radius: 5px;
 }
 
+
+/* schedule area design  */
+.flag-area {
+    display: flex;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+.flag-area p {
+    padding: 0 10px;
+}
+
+.match-description {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 /* footer area design */
 footer {
     background: black;
@@ -263,6 +289,11 @@ footer {
         display: block;
     }
 
+    .flag-area {
+        align-items: center;
+        padding: 0px 65px;
+    }
+
     .match-newses {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -277,7 +308,7 @@ footer {
 
     .footer-link li a {
         font-size: 15px;
-        padding: 10px 3px;
+        padding: 10px 5px;
     }
 }
 
@@ -286,10 +317,7 @@ footer {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
-    footer {
-        height: 600px;
-        text-align: center;
-    }
+
 
     .container {
         width: 80%;
@@ -328,6 +356,16 @@ footer {
         margin-top: 10px;
         height: auto;
         width: auto;
+    }
+
+    .flag-area {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 600px;
+        text-align: center;
     }
 
     .link-area .links {
